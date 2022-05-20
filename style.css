@@ -5,12 +5,25 @@ body {
 *{
     margin: 0;
 }
+<<<<<<< Updated upstream
+=======
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+>>>>>>> Stashed changes
 header {
     display: flex;
     height:200px;
     position:relative;
 }
 
+<<<<<<< Updated upstream
 .box1 {
      display: flex;
     align-items: center;
@@ -22,3 +35,13 @@ header {
      display: flex;
      justify-content: space-around;
  }
+=======
+.content {
+    position: fixed;
+    bottom: 1;
+    background: rgba(0, 0, 0, 0.1);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+>>>>>>> Stashed changes
