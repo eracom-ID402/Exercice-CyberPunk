@@ -1,12 +1,11 @@
 body {
-    font-family: cursive;
+    font-family: 'Russo One', sans-serif;
     font-size: 30px;
 }
-*{
+
+* {
     margin: 0;
 }
-<<<<<<< Updated upstream
-=======
 
 video {
     position: fixed;
@@ -16,26 +15,24 @@ video {
     min-height: 100%;
 }
 
->>>>>>> Stashed changes
 header {
     display: flex;
-    height:200px;
-    position:relative;
+    height: 200px;
+    position: relative;
 }
 
-<<<<<<< Updated upstream
 .box1 {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
- }
+}
 
  .box2 {
      display: flex;
      justify-content: space-around;
  }
-=======
+
 .content {
     position: fixed;
     bottom: 1;
@@ -44,4 +41,8 @@ header {
     width: 100%;
     padding: 20px;
 }
->>>>>>> Stashed changes
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+}
