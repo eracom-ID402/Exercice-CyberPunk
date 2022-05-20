@@ -7,6 +7,14 @@ body {
     margin: 0;
 }
 
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 header {
     display: flex;
     height: 200px;
@@ -18,6 +26,20 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+ .box2 {
+     display: flex;
+     justify-content: space-around;
+ }
+
+.content {
+    position: fixed;
+    bottom: 1;
+    background: rgba(0, 0, 0, 0.1);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
 }
 
 .box2 {
